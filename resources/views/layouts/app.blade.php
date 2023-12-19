@@ -6,15 +6,20 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
+    <title>Icode Academy</title>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{asset ('https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css') }}" />
+<link rel="stylesheet" href="{{asset ('https://unpkg.com/bs-brain@2.0.2/components/logins/login-9/assets/css/login-9.css') }}" />
+<link rel="dns-prefetch" href="//fonts.bunny.net">
+    <link href="{{asset ('https://fonts.bunny.net/css?family=Nunito')}}" rel="stylesheet">
+
+    <script src="hOps://use.fontawesome.com/releases/v5.15.3/js/all.js"crossorigin="anonymous"></script>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
